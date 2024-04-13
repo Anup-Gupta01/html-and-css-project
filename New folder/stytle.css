@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+
+    background-color: grey;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 62px;
+    border: 2px solid cadetblue;
+    border-radius: 50px;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 25px;
+    
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: red;
+
+}
+.nav-list li ul.dropdown li{
+    display: block;
+}
+
+.nav-list li ul.dropdown{
+    width: 999px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+} 
+
+.nav-list li:hover ul.dropdown{
+    display: block;
+    
+} 
+
+ 
+
+.rightnav {
+    /* background-color: blueviolet; */
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+    /* display: flex; */
+    /* padding: ; */
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.background {
+    background: rgb(red, green, blue);
+    background-image: url(img/new.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+    /* display: flex; */
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+}
+
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.secondhalf {
+    width: 30%;
+
+}
+
+.secondhalf img {
+    width: 70%;
+    padding: 2px;
+    border: 3px solid rgba(0, 0, 139, 0.499);
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.textbig {
+    font-size: 41px;
+}
+
+.textsmall {
+    font-size: 22px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+ .btn.ri-youtube-fill{
+  color: white;
+}
+
+.btn-sm {
+    padding: 4px 10px;
+    vertical-align: middle;
+}
+
+/* /* .secRight{
+    /* height: 500px; */
+/* display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 1444px;
+    margin: auto;
+} */
+
+.btn-dark {
+    color: black;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+.paras {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    margin: 21px 25px;
+}
+
+.thumbnail img {
+    width: 583px;
+    height: 339px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.sectionSubTag{
+  font-style: oblique;
+}
+.sectionSubTag span {
+    font-size: 32px;
+    margin: inherit;
+    font-weight: bolder;
+    
+}
+
+.select2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    gap: 10px;
+    
+}
+
+.secondstory span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.img2 {
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.contact {
+    background-color: #f6f6f6;
+    /* height: 66vh; */
+}
+
+#contacttext {
+    text-align: center;
+    padding: 17px;
+}
+
+.form {
+    max-width: 344px;
+    margin: auto;
+}
+
+.form input {
+    margin: 30px 0;
+    padding: 5px 3px;
+    /* text-align: ce */
+    /* max-width: 344px; */
+    margin: auto;
+    width: 100%;
+    font-size: 12px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#text {
+    width: 349px;
+    height: 93px;
+}
+
+
+footer {
+    padding: 15px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: floralwhite;
+
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 6%;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 32px;
+    background-color: #fff;
+    height: 4px;
+    margin: 3px;
+}
+
